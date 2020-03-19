@@ -1,1 +1,47 @@
 // Navigation code here
+
+nav {
+    
+    background-color:@wild-sand;
+    height: 20vh;
+    .displayFlex(column, center, center); 
+    
+    
+  
+
+.logo-text {
+    min-height:40%;
+    width: 70%;
+    .displayFlex(row, space-evenly, center); 
+    font-weight: bold;  
+@media @phone{
+     width: 100%;
+}
+
+h1 {
+    font-size: 4.8rem;
+}// this closes h1 inside nav    
+    
+} // this closes .logo-text   
+
+.nav-bar {
+    font-size:2rem;
+    min-height:40%; 
+    width: 40%;
+    .displayFlex(row, space-evenly, center);
+
+    @media @phone{
+        width: 100%;
+        font-size: 1.5rem;
+    }    
+
+a {
+    text-decoration: none;
+    color:@river-bend;
+    
+}//this closes a tag inside nav    
+   
+}//this closes .nav-bar
+
+
+} //this closes nav tag
